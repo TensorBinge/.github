@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440">
+  <!--
+    Network layout — 4 layers, fully centered at (220, 220)
+    Layer x:  L0=70  L1=160  L2=280  L3=370
+    Node y (spacing 72px, vertically centered at 220):
+      L0/L3: 3 nodes → 148, 220, 292
+      L1/L2: 4 nodes → 112, 184, 256, 328
+    Wordmark horizontally centered: total width 328px → left margin 56px
+      [ at x=56-74, "Tensor" x=84, ] at x=230-248, "Binge" x=264
+      Vertical center: y bracket 178-262, text baseline y=238
+  -->
+  <rect width="440" height="440" rx="12" fill="#faf8f5"/>
+
+  <g opacity="0.50">
+  <!-- ── edges L0 → L1 ── -->
+  <line x1="70" y1="148" x2="160" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="70" y1="148" x2="160" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="70" y1="148" x2="160" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.28"/>
+  <line x1="70" y1="148" x2="160" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.18"/>
+  <line x1="70" y1="220" x2="160" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.30"/>
+  <line x1="70" y1="220" x2="160" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="70" y1="220" x2="160" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="70" y1="220" x2="160" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.28"/>
+  <line x1="70" y1="292" x2="160" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.18"/>
+  <line x1="70" y1="292" x2="160" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.28"/>
+  <line x1="70" y1="292" x2="160" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="70" y1="292" x2="160" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+
+  <!-- ── edges L1 → L2 ── -->
+  <line x1="160" y1="112" x2="280" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="160" y1="112" x2="280" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="112" x2="280" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.25"/>
+  <line x1="160" y1="112" x2="280" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.15"/>
+  <line x1="160" y1="184" x2="280" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="184" x2="280" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="160" y1="184" x2="280" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="184" x2="280" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.22"/>
+  <line x1="160" y1="256" x2="280" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.22"/>
+  <line x1="160" y1="256" x2="280" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="256" x2="280" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="160" y1="256" x2="280" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="328" x2="280" y2="112" stroke="#b07828" stroke-width="0.9" opacity="0.15"/>
+  <line x1="160" y1="328" x2="280" y2="184" stroke="#b07828" stroke-width="0.9" opacity="0.22"/>
+  <line x1="160" y1="328" x2="280" y2="256" stroke="#b07828" stroke-width="0.9" opacity="0.40"/>
+  <line x1="160" y1="328" x2="280" y2="328" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+
+  <!-- ── edges L2 → L3 ── -->
+  <line x1="280" y1="112" x2="370" y2="148" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="280" y1="112" x2="370" y2="220" stroke="#b07828" stroke-width="0.9" opacity="0.28"/>
+  <line x1="280" y1="112" x2="370" y2="292" stroke="#b07828" stroke-width="0.9" opacity="0.15"/>
+  <line x1="280" y1="184" x2="370" y2="148" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="280" y1="184" x2="370" y2="220" stroke="#b07828" stroke-width="0.9" opacity="0.42"/>
+  <line x1="280" y1="184" x2="370" y2="292" stroke="#b07828" stroke-width="0.9" opacity="0.25"/>
+  <line x1="280" y1="256" x2="370" y2="148" stroke="#b07828" stroke-width="0.9" opacity="0.25"/>
+  <line x1="280" y1="256" x2="370" y2="220" stroke="#b07828" stroke-width="0.9" opacity="0.42"/>
+  <line x1="280" y1="256" x2="370" y2="292" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+  <line x1="280" y1="328" x2="370" y2="148" stroke="#b07828" stroke-width="0.9" opacity="0.15"/>
+  <line x1="280" y1="328" x2="370" y2="220" stroke="#b07828" stroke-width="0.9" opacity="0.28"/>
+  <line x1="280" y1="328" x2="370" y2="292" stroke="#b07828" stroke-width="0.9" opacity="0.45"/>
+
+  <!-- ── nodes L0 (x=70) ── -->
+  <circle cx="70"  cy="148" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+  <circle cx="70"  cy="220" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+  <circle cx="70"  cy="292" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+  <!-- ── nodes L1 (x=160) ── -->
+  <circle cx="160" cy="112" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="160" cy="184" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="160" cy="256" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="160" cy="328" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <!-- ── nodes L2 (x=280) ── -->
+  <circle cx="280" cy="112" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="280" cy="184" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="280" cy="256" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <circle cx="280" cy="328" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.82"/>
+  <!-- ── nodes L3 (x=370) ── -->
+  <circle cx="370" cy="148" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+  <circle cx="370" cy="220" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+  <circle cx="370" cy="292" r="7" fill="none" stroke="#8b5e1a" stroke-width="1.5" opacity="0.78"/>
+
+  </g>
+
+  <!-- ── wordmark — centered at (220, 220) ── -->
+  <!-- left bracket [ bar x=56, notch x=74 -->
+  <path d="M74,178 L56,178 L56,262 L74,262"
+        fill="none" stroke="#1a1a2e" stroke-width="3"
+        stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- "Tensor" starts x=84, 6×24px=144px → ends x=228 -->
+  <text x="84" y="238"
+        fill="#1a1a2e"
+        font-family="'Courier New', Courier, monospace"
+        font-size="40" font-weight="700">Tensor</text>
+  <!-- right bracket ] notch x=230, bar x=248 -->
+  <path d="M230,178 L248,178 L248,262 L230,262"
+        fill="none" stroke="#1a1a2e" stroke-width="3"
+        stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- "Binge" starts x=264, 5×24px=120px → ends x=384 -->
+  <text x="264" y="238"
+        fill="#6e7681"
+        font-family="'Courier New', Courier, monospace"
+        font-size="40" font-weight="400">Binge</text>
+</svg>
