@@ -1,0 +1,41 @@
+# TensorBinge
+
+Open research collective building tools at the intersection of machine
+learning, quantitative finance, and systems engineering.
+
+## Products
+
+### Simulor
+Event-driven quantitative backtesting framework. Simulate strategies
+against historical data with realistic execution models.
+https://pypi.org/project/simulor/
+
+### LogRoller
+Log rotation library for Rust. Size-based, time-based, and hybrid
+strategies. Zero runtime overhead after rotation.
+https://crates.io/crates/logroller
+
+### MarkScope
+Cross-platform Markdown previewer with live rendering, syntax
+highlighting, and AI-assisted editing.
+https://markscope.tensorbinge.com
+
+## Research
+
+### Machine Learning
+Deep learning theory, optimization, neural architectures,
+representation learning. We study what makes models generalize and
+when they fail.
+
+### Quantitative Finance
+Alpha research, factor models, execution, market microstructure.
+Systematic strategies built and backtested against real market data.
+
+### LLM Engineering
+Fine-tuning, RAG, evaluation, inference optimization. Applying
+language models to real problems with rigorous measurement.
+
+## Links
+
+- Blog: https://blog.tensorbinge.com
+- GitHub: https://github.com/TensorBinge

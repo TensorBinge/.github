@@ -5,10 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TensorBinge — tools at the intersection of ML, quant finance & systems</title>
   <meta name="description" content="TensorBinge is an open research collective. We build tools at the intersection of machine learning, quantitative finance, and systems engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tensorbinge.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TensorBinge — tools at the intersection of ML, quant finance & systems">
+  <meta property="og:description" content="TensorBinge is an open research collective. We build tools at the intersection of machine learning, quantitative finance, and systems engineering.">
+  <meta property="og:image" content="https://tensorbinge.com/logo.svg">
+  <meta property="og:url" content="https://tensorbinge.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TensorBinge">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TensorBinge — tools at the intersection of ML, quant finance & systems">
+  <meta name="twitter:description" content="TensorBinge is an open research collective. We build tools at the intersection of machine learning, quantitative finance, and systems engineering.">
+  <meta name="twitter:image" content="https://tensorbinge.com/logo.svg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TensorBinge",
+    "url": "https://tensorbinge.com",
+    "logo": "https://tensorbinge.com/logo.svg",
+    "description": "Open research collective building tools at the intersection of machine learning, quantitative finance, and systems engineering.",
+    "sameAs": [
+      "https://github.com/TensorBinge",
+      "https://blog.tensorbinge.com"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TensorBinge",
+    "url": "https://tensorbinge.com",
+    "description": "Tools at the intersection of machine learning, quantitative finance, and systems engineering."
+  }
+  </script>
+
   <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <nav class="nav">
     <a href="/" class="nav-wordmark" aria-label="TensorBinge home">
@@ -18,16 +61,16 @@
       </span>
     </a>
     <div class="nav-links">
-      <a target="_blank" rel="noopener" href="https://blog.tensorbinge.com" class="nav-link">Blog</a>
-      <a target="_blank" rel="noopener" href="https://github.com/TensorBinge" class="nav-link">GitHub</a>
+      <a target="_blank" rel="noopener external" href="https://blog.tensorbinge.com" class="nav-link">Blog</a>
+      <a target="_blank" rel="noopener external" href="https://github.com/TensorBinge" class="nav-link">GitHub</a>
     </div>
   </nav>
 
-  <main>
+  <main id="main-content">
     <!-- Thesis -->
-    <p class="thesis">
+    <h1 class="thesis">
       We build <span class="thesis-accent">tools</span> at the intersection of machine learning, quantitative finance &amp; systems engineering.
-    </p>
+    </h1>
 
     <!-- Products -->
     <section class="section">
@@ -42,8 +85,8 @@
           </header>
           <p class="product-desc">Event-driven quantitative backtesting framework. Simulate strategies against historical data with realistic execution models.</p>
           <div class="product-badges">
-            <a target="_blank" rel="noopener" href="https://pypi.org/project/simulor/"><img src="https://img.shields.io/pypi/v/simulor?color=8b5e1a" alt="PyPI version"></a>
-            <a target="_blank" rel="noopener" href="https://github.com/alasdairpan/simulor"><img src="https://img.shields.io/badge/source-GitHub-1a1a2e?logo=github" alt="GitHub source"></a>
+            <a target="_blank" rel="noopener external" href="https://pypi.org/project/simulor/"><img src="https://img.shields.io/pypi/v/simulor?color=8b5e1a" alt="PyPI version"></a>
+            <a target="_blank" rel="noopener external" href="https://github.com/alasdairpan/simulor"><img src="https://img.shields.io/badge/source-GitHub-1a1a2e?logo=github" alt="GitHub source"></a>
           </div>
         </article>
 
@@ -55,9 +98,9 @@
           </header>
           <p class="product-desc">Log rotation library for Rust. Size-based, time-based, and hybrid strategies. Zero runtime overhead after rotation.</p>
           <div class="product-badges">
-            <a target="_blank" rel="noopener" href="https://crates.io/crates/logroller"><img src="https://img.shields.io/crates/v/logroller?color=8b5e1a" alt="crates.io version"></a>
-            <a target="_blank" rel="noopener" href="https://docs.rs/logroller"><img src="https://img.shields.io/docsrs/logroller?color=6e7681" alt="docs.rs"></a>
-            <a target="_blank" rel="noopener" href="https://github.com/alasdairpan/logroller"><img src="https://img.shields.io/badge/source-GitHub-1a1a2e?logo=github" alt="GitHub source"></a>
+            <a target="_blank" rel="noopener external" href="https://crates.io/crates/logroller"><img src="https://img.shields.io/crates/v/logroller?color=8b5e1a" alt="crates.io version"></a>
+            <a target="_blank" rel="noopener external" href="https://docs.rs/logroller"><img src="https://img.shields.io/docsrs/logroller?color=6e7681" alt="docs.rs documentation"></a>
+            <a target="_blank" rel="noopener external" href="https://github.com/alasdairpan/logroller"><img src="https://img.shields.io/badge/source-GitHub-1a1a2e?logo=github" alt="GitHub source"></a>
           </div>
         </article>
 
@@ -69,7 +112,7 @@
           </header>
           <p class="product-desc">Cross-platform Markdown previewer with live rendering, syntax highlighting, and AI-assisted editing.</p>
           <div class="product-badges">
-            <a target="_blank" rel="noopener" href="https://markscope.tensorbinge.com"><img src="https://img.shields.io/badge/site-MarkScope-1a1a2e?logo=safari" alt="MarkScope site"></a>
+            <a target="_blank" rel="noopener external" href="https://markscope.tensorbinge.com"><img src="https://img.shields.io/badge/site-MarkScope-1a1a2e?logo=safari" alt="MarkScope site"></a>
             <a target="_blank" rel="noopener" href="https://apps.apple.com/app/markscope/id6761353159">
               <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="badge-apple">
             </a>
